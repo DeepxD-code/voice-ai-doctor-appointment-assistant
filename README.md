@@ -76,8 +76,8 @@ Clone the repository and install dependencies:
 
 ```bash
 # Clone the repository
-git clone <your-repo-link>
-cd calm-lovelace
+git clone https://github.com/DeepxD-code/voice-ai-doctor-appointment-assistant.git
+cd voice-ai-doctor-appointment-assistant
 
 # Activate virtual environment
 # Windows:
@@ -166,7 +166,11 @@ SUCCESS: 100% OF PIPELINE, RULES & DATABASE WORK PERFECTLY!
 
 ## 🎥 Video Recording Guide (Submission Checklist)
 
-To record your demo video (under 3 minutes) as required:
+The recorded walkthrough is committed at **`demo_video.mp4`** (2:15, 1440x900, with spoken audio). It shows the
+complete flow end to end: dashboard tour, call, availability check, booking with phone read-back confirmation,
+live dashboard update, then cancellation.
+
+To record your own demo video (under 3 minutes) as required:
 1. Open `http://localhost:8000` in Google Chrome or Edge.
 2. Click the green **"Try Call"** button.
 3. Observe the phone UI popup with ringing sound and connection chime.

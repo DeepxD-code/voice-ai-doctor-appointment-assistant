@@ -24,3 +24,11 @@ Thumbs.db
 test-briefing.wav
 vm_screen.png
 demo_recording/
+demo_full_recording/
+audio_clips/
+*.wav
+*.mp3
+audio_markers.json
+server_out.log
+server_err.log
+record_full.log

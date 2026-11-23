@@ -27,7 +27,10 @@ export default function App() {
   const [doctors, setDoctors] = useState([]);
   const [appointments, setAppointments] = useState([]);
   const [targetDate, setTargetDate] = useState(() => {
-    return new Date().toISOString().split('T')[0];
+    // Local calendar date (not UTC) so it matches the backend's datetime.now().
+    const d = new Date();
+    const pad = (n) => String(n).padStart(2, '0');
+    return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
   });
   const [selectedSpecialty, setSelectedSpecialty] = useState('All');
   const [config, setConfig] = useState({
