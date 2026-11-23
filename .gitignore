@@ -19,3 +19,7 @@ frontend/dist/
 Thumbs.db
 .vscode/
 .idea/
+
+# Local media scratch
+test-briefing.wav
+vm_screen.png
